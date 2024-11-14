@@ -3,7 +3,7 @@ package com.tasha.echoserver;
 import jakarta.websocket.OnMessage;
 import jakarta.websocket.server.ServerEndpoint;
 
-//i tried using the websocket api defined by java EE but it didn't work either
+//i'm using the web socket api provided by java EE and not the spring boot websocket api
 
 @ServerEndpoint("/echo")
 public class EchoServer {
